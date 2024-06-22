@@ -10,11 +10,11 @@ import moment from 'moment-timezone';
 global.botnumber = "*『👑𝐸𝐿_𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌-𝐵𝛩𝑇👑』*"
 global.confirmCode = ""
 
-global.owner = [['201280244814', '𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩', true],
+global.owner = [['201203024198', '𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩', true],
 ];
 
-global.suittag = ['201280244814'];
-global.prems = ['201280244814'];
+global.suittag = ['201203024198'];
+global.prems = ['201203024198'];
 
 global.packname = '𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩';
 global.author = '👑𝐸𝐿_𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌-𝐵𝛩𝑇👑';
