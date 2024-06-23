@@ -1,6 +1,6 @@
 let handler = async (m, { conn, text, participants, isAdmin, isOwner }) => {
     let users = participants.map(u => u.id).filter(v => v !== conn.user.jid)
-    m.reply(`*الرساله:*\n${text ? `${text}\n` : ''}\n*𝐁𝐋𝐀𝐂𝐊 𝐂𝐀𝐓🇪🇬 :}*\n\𝐁𝐎𝐓ـᬽـ 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏ᬽـ \n\n\n` + users.map(v => '│♪ @' + v.replace(/@.+/, '')).join`\n` + '\n⛾「 *تمت الإشارة للكل* 」⛾', null, {
+    m.reply(`*الرساله:*\n${text ? `${text}\n` : ''}\n*𝐸𝐿_𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌 𝐵𝑂𝑇 :}*\n\𝐵𝑂𝑇 ☕🌿 𝐸𝐿_𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌ـ \n\n\n` + users.map(v => '│♪ @' + v.replace(/@.+/, '')).join`\n` + '\n⛾「 *بحــبڪؤ ​​​​​​🙈💕* 」⛾', null, {
         mentions: users
     })
 }
