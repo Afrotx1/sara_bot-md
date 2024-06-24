@@ -20,9 +20,9 @@ let handler = m => m;
      responses = [ 
 '*وانت مال امك 😆*'
      ]; 
-   }else if (/^احا $/i.test(m.text)) { 
+   }else if (/^مرتبط$/i.test(m.text)) { 
      responses = [ 
-'*احتين علي احتك 🥹*'
+'*وانت مالك🙂*'
    ]; 
    }else if (/^بوت بتحبني؟|بوت بتحبنى$/i.test(m.text)) { 
      responses = [ 
@@ -101,9 +101,9 @@ let handler = m => m;
      responses = [ 
        '*بخير*',  
      ];
-            }else if (/^مرحبا$/i.test(m.text)) { 
+            }else if (/^احا$/i.test(m.text)) { 
      responses = [ 
-       '*مرحبا♥*',  
+       '*احتين علي احتك 🥹*',  
      ];
    }
    if (responses) { 
