@@ -20,7 +20,7 @@ let handler = m => m;
      responses = [ 
 '*وانت مال امك 😆*'
      ]; 
-   }else if (/^احا$/i.test(m.text)) { 
+   }else if (/^احا $/i.test(m.text)) { 
      responses = [ 
 '*احتين علي احتك 🥹*'
    ]; 
