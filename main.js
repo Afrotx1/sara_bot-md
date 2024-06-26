@@ -544,7 +544,6 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `ع ـششࢪتم ششات ومـسسحناهه✨ >> تم تطوير البوت بواستطي 𓀽 𝐸𝐿_𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌 𖤍 𝐵𝑂𝑇 𓀽 👑🔥 :\n\n ${uptime}`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
