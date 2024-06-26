@@ -48,7 +48,7 @@ let handler = m => m;
      ]; 
    }else if (/^بوت$/i.test(m.text)) { 
      responses = [ 
-'هاي ي روحي معاك بوت الدسوقي ☕🌿'
+'هاي ي روحي معاك بوت الدسوقي ☕🌿https://whatsapp.com/channel/0029VacWb364dTnEKmVWd628'
      ]; 
    } else if (/^ملل$/i.test(m.text)) { 
      responses = [ 
