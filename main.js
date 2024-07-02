@@ -544,7 +544,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `AFROTO 3AMAK [ ⏳ ] Uptime: ${uptime}`;
+  const bio = `AFROTO 3AM Eldesokeiy [ ⏳ ] Uptime: ${uptime}`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
