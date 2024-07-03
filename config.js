@@ -10,11 +10,11 @@ import moment from 'moment-timezone';
 global.botnumber = "*『👑𝑀𝑅_𝐴𝐹𝑅𝑂𝑇𝑂-𝐵𝛩𝑇👑』*"
 global.confirmCode = ""
 
-global.owner = [['212601064446', '𝐴𝐹𝑅𝑂𝑇𝑂 𝐴𝐿𝐷𝐺𝐴𝐿⁩', true],
+global.owner = [['201067999523', '𝐴𝐹𝑅𝑂𝑇𝑂 𝐴𝐿𝐷𝐺𝐴𝐿⁩', true],
 ];
 
-global.suittag = ['201203024198'];
-global.prems = ['201203024198'];
+global.suittag = ['201067999523'];
+global.prems = ['201067999523'];
 
 global.packname = '𝐴𝐹𝑅𝑂𝑇𝑂 𝐴𝐿𝐷𝐺𝐴𝐿⁩';
 global.author = '👑𝑀𝑅_𝐴𝐹𝑅𝑂𝑇𝑂-𝐵𝛩𝑇👑';
